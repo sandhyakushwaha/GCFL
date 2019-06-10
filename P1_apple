@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() 
+{
+
+int i,j,k,r;
+    char ch[6];
+    gets(ch);
+    r=strlen(ch);
+    for(i=1;i<r;i++)
+    {
+        for(j=1;j<=i;j++)
+        {
+            printf("%c",ch[j]);
+            
+        }
+        printf("\n");
+}
+    for(i=r;i>=1;i--)
+    {
+       for(j=1;j<=i;j++)
+        {
+            printf("%c",ch[j]);
+            
+        }
+        printf("\n");  
+    }
+}
